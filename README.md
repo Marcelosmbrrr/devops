@@ -6,7 +6,7 @@ This project is built with Laravel 11 to explore the integration of advanced Dev
 
 GitFlow is a branching model for Git that helps teams manage their code more easily. It sets up a clear way to handle different stages of development, like building new features, prepping for releases, and fixing bugs.
 
-There are commands for every step, like "git flow init" for initializing, "git flow feature start name" and "git flow feature start finish" for feature development, "git flow release start x.y.z" and "git flow release finish x.y.z -m 'message'" for releases and others.
+There are commands for every step, like "git flow init" for initializing, "git flow feature start name" and "git flow feature start finish" for feature development, "git flow release start x.y.z" and "git flow release finish x.y.z -m 'message'" for releases etc.
 
 Master/Main: This is where your production-ready code lives.
 Develop: This is where all the new features come together before they go live.
