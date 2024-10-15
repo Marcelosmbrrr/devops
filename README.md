@@ -1,6 +1,6 @@
-# Devops
+# About
 
-soon...
+This project is built with Laravel 11 to explore the integration of advanced DevOps tools throughout the development and production lifecycle. The objective is to explode and learn the essential of modern DevOps practices.
 
 ## Gitflow
 
