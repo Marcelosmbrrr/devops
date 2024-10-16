@@ -20,6 +20,8 @@ By utilizing GitFlow, learn the fundamental development workflow associated with
 
 ## SonarQube
 
+<img src="https://www.opcito.com/sites/default/files/inline-images/5%20(1).png" width="500" />
+
 SonarQube is an open-source platform used for continuous inspection of code quality. It helps developers manage code quality by identifying bugs, vulnerabilities, and code smells in their projects.
 
 SonarQube can be seamlessly integrated with Jenkins, a popular continuous integration and continuous delivery (CI/CD) tool. This integration allows you to automatically analyze your code after each build.
