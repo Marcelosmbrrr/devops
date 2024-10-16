@@ -4,7 +4,7 @@ This project is built with Laravel 11 to explore the integration of advanced Dev
 
 ## Gitflow
 
-<img src="https://velog.velcdn.com/images/boseong-choi/post/59173dfa-fb90-49b4-8323-daa5a38ca02b/image.png" width="500" />
+![Source: https://velog.io/@boseong-choi/git2]<img src="https://velog.velcdn.com/images/boseong-choi/post/59173dfa-fb90-49b4-8323-daa5a38ca02b/image.png" width="500" />
 
 GitFlow is a branching model for Git that helps teams manage their code more easily. It sets up a clear way to handle different stages of development, like building new features, prepping for releases, and fixing bugs.
 
