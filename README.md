@@ -58,7 +58,7 @@ docker-compose -f docker-compose.yml up -d
 
 Prometheus is a monitoring tool that excels at collecting system and application metrics in real-time.
 
-Prometheus uses a pull-based metric collection model, where it makes HTTP requests to endpoints exposed by applications. The route "/metrics" is a commonly used endpoint and is being used on this project.
+Prometheus uses a pull-based metric collection model, where <bold>it makes HTTP requests to endpoints exposed</bold> by applications. The <bold>route "/metrics"</bold> is being used on this project.
 
 The <a href="https://prometheus.io/docs/instrumenting/clientlibs/" target="_blank">client libraries</a> are libraries that help implement data collection in applications. This project is using <a href="https://github.com/promphp/prometheus_client_php">PHP client library</a>. 
 
