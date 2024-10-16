@@ -48,7 +48,7 @@ docker run \
 ## Prometheus and Grafana
 
 They were integrated into the project via Docker. To test them, simply run the docker-compose.yml file. 
-Prometheus is accessible on localhost:9090, while Grafana can be accessed on localhost:3000."
+Prometheus is accessible on localhost:9090, while Grafana can be accessed on localhost:3000.
 
 ```
 docker-compose -f docker-compose.yml up -d
