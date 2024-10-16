@@ -55,7 +55,7 @@ Prometheus uses a pull-based metric collection model, where it makes HTTP reques
 
 For services that do not expose metrics natively (such as databases, servers, etc.), exporters are used, ...
 
-### Grafana - grapichs
+### Grafana - data visualization
 
 Grafana is a data analysis and visualization platform that allows you to create interactive and customizable dashboards. It integrates with multiple data sources, including Prometheus, to provide rich visualizations and insights into the metrics collected.
 
