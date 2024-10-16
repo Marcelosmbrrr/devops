@@ -60,7 +60,7 @@ Prometheus is a monitoring tool that excels at collecting system and application
 
 Prometheus uses a pull-based metric collection model, where it makes HTTP requests to endpoints exposed by applications. The route "/metrics" is a commonly used endpoint and is being used on this project.
 
-The <a href="https://prometheus.io/docs/instrumenting/clientlibs/" target="_blank">client libraries</a> are libraries that help implement data collection in applications. There are for several languages. This project is using <a href="https://github.com/promphp/prometheus_client_php">PHP client library</a>. 
+The <a href="https://prometheus.io/docs/instrumenting/clientlibs/" target="_blank">client libraries</a> are libraries that help implement data collection in applications. This project is using <a href="https://github.com/promphp/prometheus_client_php">PHP client library</a>. 
 
 For services that do not expose metrics natively (such as databases, servers, etc.), exporters are used, ...
 
