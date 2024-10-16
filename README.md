@@ -47,7 +47,14 @@ docker run \
 
 ## Prometheus and Grafana
 
-### Prometheus - data collecting
+They were integrated into the project via Docker. To test them, simply run the docker-compose.yml file. 
+Prometheus is accessible on localhost:9090, while Grafana can be accessed on localhost:3000."
+
+```
+docker-compose -f docker-compose.yml up -d
+````
+
+### Prometheus - Data Collecting
 
 Prometheus is a monitoring tool that excels at collecting system and application metrics in real-time.
 
@@ -57,7 +64,7 @@ The <a href="https://prometheus.io/docs/instrumenting/clientlibs/" target="_blan
 
 For services that do not expose metrics natively (such as databases, servers, etc.), exporters are used, ...
 
-### Grafana - data visualization
+### Grafana - Data Visualization
 
 Grafana is a data analysis and visualization platform that allows you to create <a href="https://grafana.com/grafana/dashboards/" target="_blank">interactive and customizable dashboards</a>. It integrates with multiple data sources, including Prometheus, to provide rich visualizations and insights into the metrics collected.
 
