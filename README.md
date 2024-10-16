@@ -45,11 +45,7 @@ docker run \
 	sonarsource/sonar-scanner-cli
 ````
 
-## Prometheus
-
-soon...
-
-## Grafana
+## Prometheus and Grafana
 
 soon...
 
