@@ -40,10 +40,6 @@ docker run \
 	-v "project_absolute_local_path:/usr/src" \
 	sonarsource/sonar-scanner-cli
 ````
- 
-## Jenkins
-
-soon...
 
 ## Prometheus
 
@@ -54,5 +50,9 @@ soon...
 soon...
 
 ## Amazon AWS
+
+soon...
+
+## Pipeline with Jenkins
 
 soon...
