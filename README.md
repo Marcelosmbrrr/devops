@@ -53,6 +53,8 @@ Prometheus is a monitoring tool that excels at collecting system and application
 
 Prometheus uses a pull-based metric collection model, where it makes HTTP requests to endpoints exposed by applications. For example, "/metrics" is a commonly used endpoint.
 
+The <a href="https://prometheus.io/docs/instrumenting/clientlibs/" target="_blank">client libraries</a> are libraries that help implement data collection in applications. There are for Java, PHP, Ruby, Nodejs, and several others. 
+
 For services that do not expose metrics natively (such as databases, servers, etc.), exporters are used, ...
 
 ### Grafana - data visualization
