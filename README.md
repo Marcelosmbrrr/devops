@@ -47,7 +47,17 @@ docker run \
 
 ## Prometheus and Grafana
 
-soon...
+### Prometheus - data collecting
+
+Prometheus is a monitoring tool that excels at collecting system and application metrics in real-time.
+
+Prometheus uses a pull-based metric collection model, where it makes HTTP requests to endpoints exposed by applications. For example, "/metrics" is a commonly used endpoint.
+
+For services that do not expose metrics natively (such as databases, servers, etc.), exporters are used, ...
+
+### Grafana - grapichs
+
+Grafana is a data analysis and visualization platform that allows you to create interactive and customizable dashboards. It integrates with multiple data sources, including Prometheus, to provide rich visualizations and insights into the metrics collected.
 
 ## Amazon AWS
 
