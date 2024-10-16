@@ -59,7 +59,7 @@ For services that do not expose metrics natively (such as databases, servers, et
 
 ### Grafana - data visualization
 
-Grafana is a data analysis and visualization platform that allows you to create interactive and customizable dashboards. It integrates with multiple data sources, including Prometheus, to provide rich visualizations and insights into the metrics collected.
+Grafana is a data analysis and visualization platform that allows you to create <a href="https://grafana.com/grafana/dashboards/" target="_blank">interactive and customizable dashboards</a>. It integrates with multiple data sources, including Prometheus, to provide rich visualizations and insights into the metrics collected.
 
 ## Amazon AWS
 
