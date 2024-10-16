@@ -22,7 +22,13 @@ SonarQube is an open-source platform used for continuous inspection of code qual
 
 SonarQube can be seamlessly integrated with Jenkins, a popular continuous integration and continuous delivery (CI/CD) tool. This integration allows you to automatically analyze your code after each build.
 
-Initially, to test it locally, I created a docker-compose.sonar.yml. By accessing the dashboard on port 9000 with the credentials 'admin' and 'admin', I was able to create a new project, generate a secret token, and run this command:
+Initially, to test it, I created a docker-compose.sonar.yml and executed the command below. Then, acessing the sonarqube dashboard on port 9000 with the credentials 'admin' and 'admin', i was able to create a new project and generate a secret token.
+
+```
+docker-compose -f docker-compose.sonar.yml up -d
+````
+
+After the project and token creation, fill the fields with the respective values and run the command:
 
 ```
 docker run \
