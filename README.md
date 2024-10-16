@@ -62,7 +62,7 @@ Prometheus uses a pull-based metric collection model, where it makes HTTP reques
 
 The <a href="https://prometheus.io/docs/instrumenting/clientlibs/" target="_blank">client libraries</a> are libraries that help implement data collection in applications. This project is using <a href="https://github.com/promphp/prometheus_client_php">PHP client library</a>. 
 
-For services that do not expose metrics natively (such as databases, servers, etc.), exporters are used, ...
+For services that do not expose metrics natively (such as databases, servers, etc.), exporters are used, they are custom collectors.
 
 ### Grafana - Data Visualization
 
