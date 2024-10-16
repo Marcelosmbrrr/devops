@@ -47,6 +47,8 @@ docker run \
 
 ## Prometheus and Grafana
 
+<img src="https://grafana.com/api/dashboards/3834/images/2403/image" width="500" />
+
 They were integrated into the project via Docker. To test them, simply run the docker-compose.yml file. 
 Prometheus is accessible on localhost:9090, while Grafana can be accessed on localhost:3000.
 
