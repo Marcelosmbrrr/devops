@@ -76,7 +76,7 @@ To access the Prometheus dashboard, go to localhost:9090 and click on "Status ->
 
 Next, access the Grafana dashboard at localhost:3000 using the credentials "admin" for both username and password. Go to "Connections" and "Data Sources" to add a new data source, selecting Prometheus and entering the URL http://prometheus:9090.
 
-Once configured, Grafana will receive data from Prometheus! You can also use a custom dashboard by going to "Dashboards," clicking "New -> Import," and entering the ID of a dashboard available on the Grafana website.
+Once configured, Grafana will receive data from Prometheus! You can also use a custom dashboard by going to "Dashboards," clicking "New -> Import," and entering the ID of a dashboard available on the Grafana website, like <a href="https://grafana.com/grafana/dashboards/3662-prometheus-2-0-overview/">this one</a>.
 
 ## Amazon AWS
 
