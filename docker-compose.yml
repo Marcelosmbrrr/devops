@@ -75,6 +75,25 @@ services:
         networks:
             - laravel
 
+    # Prometheus
+    prometheus:
+        image: prom/prometheus
+        volumes:
+            - ./prometheus.yml:/etc/prometheus/prometheus.yml
+        ports:
+            - 9090:9090
+        networks:
+            - laravel
+
+    # Grafana
+    grafana:
+        image: grafana/grafana
+        restart: unless-stopped
+        ports:
+            - "3000:3000" 
+        networks:
+            - laravel
+
 networks:
     laravel:
         driver: bridge

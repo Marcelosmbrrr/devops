@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 15s # time interval for new request
+  scrape_timeout: 15s # time interval for waiting request
+
+scrape_configs:
+  - job_name: "laravel-app"
+    static_configs:
+      - targets: ["nginx:80"] 
+    metrics_path: /prometheus
+
+  - job_name: "prometheus-dashboard"
+    static_configs:
+      - targets: ["prometheus:9090"] 
