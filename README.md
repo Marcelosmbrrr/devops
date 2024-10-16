@@ -22,13 +22,13 @@ SonarQube is an open-source platform used for continuous inspection of code qual
 
 SonarQube can be seamlessly integrated with Jenkins, a popular continuous integration and continuous delivery (CI/CD) tool. This integration allows you to automatically analyze your code after each build.
 
-Initially, to test it, I created a docker-compose.sonar.yml and executed the command below. Then, acessing the sonarqube dashboard on port 9000 with the credentials 'admin' and 'admin', i was able to create a new project and generate a secret token.
+Initially, to test it, run the command below. 
 
 ```
 docker-compose -f docker-compose.sonar.yml up -d
 ````
 
-After the project and token creation, fill the fields with the respective values and run the command:
+Then, acessing the sonarqube dashboard on port 9000 with the credentials 'admin' and 'admin', is possible to create a new project and a token. After this step, fill the fields with the respective values and run the command:
 
 ```
 docker run \
@@ -37,7 +37,7 @@ docker run \
 	-e SONAR_HOST_URL="http://127.0.0.1:9000" \
 	-e SONAR_SCANNER_OPTS="-Dsonar.projectKey=project_name" \
 	-e SONAR_TOKEN="secret_token" \
-	-v "project_local_path:/usr/src" \
+	-v "project_absolute_local_path:/usr/src" \
 	sonarsource/sonar-scanner-cli
 ````
  
