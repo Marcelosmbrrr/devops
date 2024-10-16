@@ -18,8 +18,23 @@ By utilizing GitFlow, learn the fundamental development workflow associated with
 
 ## SonarQube
 
-soon...
+SonarQube is an open-source platform used for continuous inspection of code quality. It helps developers manage code quality by identifying bugs, vulnerabilities, and code smells in their projects.
 
+SonarQube can be seamlessly integrated with Jenkins, a popular continuous integration and continuous delivery (CI/CD) tool. This integration allows you to automatically analyze your code after each build.
+
+Initially, to test it locally, I created a docker-compose.sonar.yml. By accessing the dashboard on port 9000 with the credentials 'admin' and 'admin', I was able to create a new project, generate a secret token, and run this command:
+
+```
+docker run \
+	--rm \
+	--network=host \
+	-e SONAR_HOST_URL="http://127.0.0.1:9000" \
+	-e SONAR_SCANNER_OPTS="-Dsonar.projectKey=project_name" \
+	-e SONAR_TOKEN="secret_token" \
+	-v "project_local_path:/usr/src" \
+	sonarsource/sonar-scanner-cli
+````
+ 
 ## Jenkins
 
 soon...
