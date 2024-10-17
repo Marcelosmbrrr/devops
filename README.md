@@ -80,10 +80,6 @@ Next, access the Grafana dashboard at localhost:3000 using the credentials "admi
 
 Once configured, Grafana will receive data from Prometheus! You can also use a custom dashboard by going to "Dashboards," clicking "New -> Import," and entering the ID of a dashboard available on the Grafana website, like <a href="https://grafana.com/grafana/dashboards/3662-prometheus-2-0-overview/">this one</a>.
 
-## Amazon AWS
-
-soon...
-
 ## Pipeline with Jenkins
 
 soon...
