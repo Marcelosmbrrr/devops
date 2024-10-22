@@ -85,3 +85,5 @@ Once configured, Grafana will receive data from Prometheus! You can also use a c
 <img src="https://th.bing.com/th/id/R.5b2dec7470bce6673d06888fda8f6f26?rik=yOaTmre8ip9TeQ&riu=http%3a%2f%2fwww.testingdocs.com%2fwp-content%2fuploads%2fJenkins-Dashboard.png&ehk=dhVeeNGB%2fmGFFFfG5wFTg%2bFOhzQm%2b0ljEHy%2fgQeovCU%3d&risl=&pid=ImgRaw&r=0" width="500" />
 
 soon...
+
+## Github Actions
