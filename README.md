@@ -80,10 +80,18 @@ Next, access the Grafana dashboard at localhost:3000 using the credentials "admi
 
 Once configured, Grafana will receive data from Prometheus! You can also use a custom dashboard by going to "Dashboards," clicking "New -> Import," and entering the ID of a dashboard available on the Grafana website, like <a href="https://grafana.com/grafana/dashboards/3662-prometheus-2-0-overview/">this one</a>.
 
-## Pipeline with Jenkins
+## Jenkins
 
 <img src="https://th.bing.com/th/id/R.5b2dec7470bce6673d06888fda8f6f26?rik=yOaTmre8ip9TeQ&riu=http%3a%2f%2fwww.testingdocs.com%2fwp-content%2fuploads%2fJenkins-Dashboard.png&ehk=dhVeeNGB%2fmGFFFfG5wFTg%2bFOhzQm%2b0ljEHy%2fgQeovCU%3d&risl=&pid=ImgRaw&r=0" width="500" />
 
-soon...
+soon ..
 
 ## Github Actions
+
+GitHub Actions is an automation tool built into GitHub that allows you to create workflows to automate tasks related to software development.
+
+- Workflows: YAML files in the .github/workflows directory, triggered by events such as push or pull request.
+- Jobs and Steps: Workflows contain jobs (executed in parallel or sequence) composed of steps (individual tasks).
+- Actions: Building blocks that can be community actions or created by you.
+- Environments and Variables: Allow you to define variables and use secrets for sensitive information.
+- Integration: Works with a variety of tools, facilitating automations throughout the development process.
