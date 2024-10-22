@@ -38,5 +38,7 @@ jobs:
     needs: tests
     steps:
       - uses: actions/checkout@v4
+      - name: Set executable permissions for the script
+        run: chmod +x .github/scripts/script.sh
       - name: Run Deployment Script
         run: .github/scripts/script.sh
