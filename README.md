@@ -86,10 +86,10 @@ soon ..
 
 ## Github Actions
 
-GitHub Actions é uma ferramenta de automação integrada ao GitHub que permite criar fluxos de trabalho (workflows) para automatizar tarefas relacionadas ao desenvolvimento de software.
+GitHub Actions is an automation tool built into GitHub that allows you to create workflows to automate tasks related to software development.
 
-- Workflows: Arquivos YAML no diretório .github/workflows, acionados por eventos como push ou pull request.
-- Jobs e Steps: Workflows contêm jobs (executados em paralelo ou sequência) compostos por steps (tarefas individuais).
-- Ações: Blocos de construção que podem ser ações da comunidade ou criadas por você.
-- Ambientes e Variáveis: Permitem definir variáveis e usar segredos para informações sensíveis.
-- Integração: Funciona com diversas ferramentas, facilitando automações em todo o processo de desenvolvimento.
+- Workflows: YAML files in the .github/workflows directory, triggered by events such as push or pull request.
+- Jobs and Steps: Workflows contain jobs (executed in parallel or sequence) composed of steps (individual tasks).
+- Actions: Building blocks that can be community actions or created by you.
+- Environments and Variables: Allow you to define variables and use secrets for sensitive information.
+- Integration: Works with a variety of tools, facilitating automations throughout the development process.
