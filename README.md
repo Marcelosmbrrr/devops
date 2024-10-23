@@ -100,7 +100,7 @@ The pipeline process is run by runners, which work similarly to GitHub Actions a
 
 ### Local Usage
 
-To test Jenkins locally, was used a Container with all the resources needed to run Laravel, configured from the Dockerfile.jenkins and docker-compose.jenkins.yml
+To test Jenkins locally, was used a Container with all the resources needed to run Laravel, configured from the Dockerfile.jenkins and docker-compose.jenkins.yml. By default, Jenkins will be accessible on localhost port 8080.
 
 ```
 docker-compose -f docker-compose.jenkins.yml up -d
