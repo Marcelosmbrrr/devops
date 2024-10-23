@@ -84,7 +84,27 @@ Once configured, Grafana will receive data from Prometheus! You can also use a c
 
 <img src="https://th.bing.com/th/id/R.5b2dec7470bce6673d06888fda8f6f26?rik=yOaTmre8ip9TeQ&riu=http%3a%2f%2fwww.testingdocs.com%2fwp-content%2fuploads%2fJenkins-Dashboard.png&ehk=dhVeeNGB%2fmGFFFfG5wFTg%2bFOhzQm%2b0ljEHy%2fgQeovCU%3d&risl=&pid=ImgRaw&r=0" width="500" />
 
-soon ..
+Jenkins is an open-source automation tool that facilitates continuous integration and continuous delivery (CI/CD) of software
+
+It is typically installed on a standalone server, and through an intuitive web interface, you can configure and monitor projects, creating jobs, accessing execution logs, and configuring a lot of other stuffs.
+
+### Github Integration
+
+One of its main features is integration with remote repositories, such as Github. This integration can be done in different ways, such as through polling, where Jenkins periodically checks for updates, or using webhooks, where GitHub notifies Jenkins whenever a push or pull request is made.
+
+### Jenkinsfile
+
+The pipeline is usually defined in a file called Jenkinsfile. This file allows you to describe the entire pipeline process. 
+
+The pipeline process is run by runners, which work similarly to GitHub Actions agents. They don't come pre-configured, which means that in order to build and test a Laravel project, Jenkins needs to run on a machine with the features required by the application. 
+
+### Local Usage
+
+To test Jenkins locally, was used a Container with all the resources needed to run Laravel, configured from the Dockerfile.jenkins and docker-compose.jenkins.yml
+
+```
+docker-compose -f docker-compose.jenkins.yml up -d
+````
 
 ## Github Actions
 
